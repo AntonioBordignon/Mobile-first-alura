@@ -71,3 +71,8 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+.carrossel_star {
+    display: flex;
+    padding: .7em 0;
+}

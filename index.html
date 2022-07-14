@@ -77,6 +77,50 @@
         </div>    
         </div>
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="image/ApacheKafka.svg" alt="Livro sobre apache Kafka e spring boot da alura books"></div>
+            <div class="swiper-slide"><img src="image/Acessibilidade.svg" alt="Livro sobre boas praticas para construir sites com acessibilidade"></div>
+            <div class="swiper-slide"><img src="image/MEAN.svg" alt="Livro sobre full stack"></div>
+            <div class="swiper-slide"><img src="image/MetricasAgeis.svg" alt="Livro sobre desenvolvimento de equipe"></div>
+            <div class="swiper-slide"><img src="image/Guia-Front-end.svg" alt="Livro sobre carreira front-end"></div>
+            <div class="swiper-slide"><img src="image/Arquitetura.svg" alt="Livro sobre boas praticas em arquitetura"></div>
+            </div>        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <div class="carrossel_star"><img src="image/Star.svg" alt="nota">
+                    <img src="image/Star.svg" alt="nota">
+                    <img src="image/Star.svg" alt="nota">
+                    <img src="image/Star.svg" alt="nota">
+                    <img src="image/Star.svg" alt="nota">
+                </div>
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <img src="image/Juliana.svg" class="descricao__imagem">
+            </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="image/Favoritos.svg" alt="Favoritar livro"></li>
+                <li class="botoes__item"><img src="image/Compras.svg" alt="adicionar no carrinho de compras"></li>
+            </ul>
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>    
+        </div>
+    </section>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
