@@ -1,4 +1,4 @@
-# Course Origamid CSS Flexbox
+# Alura Course responsiveness with mobile-first 
 
 <h1 align="center"> <img src="image/gif.gif"></h1>
 
